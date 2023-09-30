@@ -11,6 +11,7 @@ def n_squared(n):
     """Takes int n and squares it"""
     return n**2
 
+
 def n_power_n(number):
     """Takes a number and returns power of itself"""
     return number**number
