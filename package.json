@@ -1,0 +1,18 @@
+{
+  "name": "vip-applications",
+  "version": "1.0.0",
+  "description": "Use this repository to accompany your application to the Vertically Integrated\r Projects program at Oregon State University. After completing the steps below,\r please be sure to complete the whole application form - your fork of this repo\r is not the only thing to do!",
+  "main": "application.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testRegex": "_test\\.js$"
+  }
+}
