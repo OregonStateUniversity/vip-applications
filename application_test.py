@@ -18,6 +18,15 @@ class TestSimpleMap(unittest.TestCase):
         result = simple_map(n_squared, test_array)
         self.assertListEqual(expected, result)
 
+    def test_simple_map_edge_case(self):
+        """
+        Edge case test of map function to test an empty array
+        """
+        test_array = []
+        expected = list(map(n_squared, test_array))  # Convert map obj to list
+        result = simple_map(n_squared, test_array)
+        self.assertListEqual(expected, result)
+
 
 if __name__ == '__main__':
     unittest.main()
