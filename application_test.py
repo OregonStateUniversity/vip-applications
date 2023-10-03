@@ -3,11 +3,10 @@ Name: Daniel Reti
 OSU Email: retid@oregonstate.edu
 Desc: Fork of vip-application, custom map function
 '''
-import turtle
 import unittest
 from application import map
 
-class mapTurltleTester(unittest.TestCase):
+class map_tester(unittest.TestCase):
     
     def test_display(self):
         #test that the default information displays
