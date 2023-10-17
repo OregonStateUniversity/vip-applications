@@ -8,5 +8,6 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(map_result, 14)  # add assertion here
 
 
+
 if __name__ == '__main__':
     unittest.main()

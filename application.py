@@ -8,3 +8,4 @@ group2 = ("item4", "item5", "item6")
 map_result = map(mapfunction, group1, group2)
 
 print(list(map_result))
+
