@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testRegex": "_test\\.js$"
+  },
+  "dependencies": {
+    "standard": "^17.1.0"
+  }
+}
