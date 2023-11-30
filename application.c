@@ -4,7 +4,7 @@
 /* DESCRIPTION
  * Since C does not (at least easily) allow a way to pass arguments of an arbitrary
  * type to a function, I decided that the simplest course of action was to split
- * the map function up into separate map functions, each corresponding to a different
+ * the map function into three separate map functions, each corresponding to a different
  * type. Each function is identical in implementation, and only differs in the type
  * of data it is able to manipulate. Each map function takes a function, applies
  * it to each element of an array of input data, and then stores the results in
