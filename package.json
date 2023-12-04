@@ -1,0 +1,11 @@
+{
+  "name": "vip-applications",
+  "version": "1.0.0",
+  "description": "Application for Vertically Integrated Projects program at Oregon State University.",
+  "main": "application.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sycamedia",
+  "license": "ISC"
+}
