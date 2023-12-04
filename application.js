@@ -15,3 +15,5 @@
     }
     return result
 }
+
+module.exports = map;
