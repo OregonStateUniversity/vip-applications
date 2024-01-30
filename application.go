@@ -1,4 +1,4 @@
-package main
+package TestMap
 
 // Map Transform each element of input_slice
 func Map[input_type any, output_type any](
